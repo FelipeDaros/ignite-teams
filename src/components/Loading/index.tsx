@@ -1,9 +1,9 @@
-import { Container, LoadIndicator } from './styles';
+import { Container, LoadIndicator } from "./styles";
 
-export function Loading() {
-  return (
+export default function Loading(){
+  return(
     <Container>
-      <LoadIndicator />
+      <LoadIndicator color="red"/>
     </Container>
-  );
+  )
 }
