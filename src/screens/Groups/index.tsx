@@ -1,3 +1,4 @@
+import Button from "@components/Button";
 import { GroupCard } from "@components/GroupCard";
 import Header from "@components/Header/index";
 import HighLight from "@components/HighLight";
@@ -24,7 +25,7 @@ export default function Groups(){
           <ListEmpty message="Que tal cadastrar a primeira turma ?"/>
         )}
       />
-      
+      <Button title="Criar uma nova turma"/>
     </Container>
   )
 }
